@@ -1,0 +1,180 @@
+h2,h3,h4 {
+   color:whitesmoke;
+   background-color: black;
+   border-radius: 6px;
+   font-family: impact,serif;
+   font-size: 900;
+   border-color: blueviolet;
+}
+
+h2,h3,h4: hover {
+	color:yellowgreen;
+}
+
+h1 {
+	color: black;
+	font-family: 'Special Elite',cursive;
+	font-size: 400;
+}
+
+h1:hover {
+background: rgb(95,45,232);
+background: linear-gradient(252deg, rgba(95,45,232,1) 11%, rgba(204,99,207,1) 60%);
+border-radius: 6px;
+text-decoration: blink;
+transition: 0.5s;
+color: wheat;
+}
+
+body {
+   text-justify: center;
+   text-align: center;
+   font-family: calibri,serif;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(121,32,112,1) 99%);
+   color : black;
+   font-size: 32px;
+}
+
+a: {
+	text-decoration: none;
+	background-color: black;
+   font-family: impact,serif;
+	}
+
+a:hover {
+	color: yellowgreen;
+}
+
+p{
+	color: black;
+	text-align: center;
+	font-family: impact,serif;
+}
+
+img{
+	border-width: large;
+	border-style: ridge;
+	height: 250px;
+	width: 250px;
+	border-radius: 50% ;
+	box-shadow: 40 20px 60px rgba(78,50,93,0.5);
+
+}
+
+.card-white{
+	background: ghostwhite;
+	border: 0px solid whitesmoke;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 0 20px 60px rgba(50,50,0,0.5);
+	border-radius: 6px;
+	text-align: center;
+}
+
+.container {
+	background: solid blueviolet;
+	width: 1000px;
+	margin:  0 auto;
+}
+
+.style{
+	width: 160px;
+	height: 96px;
+	padding: 16px;
+	color: blanchedalmond;
+	font-family: impact;
+	background-color: rebeccapurple;
+	border-radius: 6px;
+	border: solid 1px rebeccapurple;
+	text-decoration: none;
+}
+.style:hover {
+   font-family: 'impact',cursive;
+   background-color: black;
+   color : rebeccapurple;
+   font-size: 32px;
+   transition: 0.5s;
+}
+
+.list-in-line{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+li{
+	margin-bottom: 15px;
+	display: inline;
+}
+
+#deezer {
+	background-image: url(Images/gordon-cowie-qQzw8jPvip8-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+#dee{
+	color: yellowgreen;
+	margin: 100px;
+	font-size:800;
+	size: 900;
+}
+
+#dee:hover{
+	color: blanchedalmond;
+}
+
+.list {
+	color: black;
+	text-align: center;
+	font-family: impact,sans serif;
+	size: 300;
+}
+
+#passions{
+    background: linear-gradient(286deg, #e5e3f5, #df33c9, #2bc7d0);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 25s ease infinite;
+    -moz-animation: AnimationName 25s ease infinite;
+    animation: AnimationName 25s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:14% 0%}
+    50%{background-position:87% 100%}
+    100%{background-position:14% 0%}
+}
+.list: hover{
+	color: yellowgreen;
+}
+
+#Follow {
+	background-image: url(Images/flexouille.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+@media (max-width: 900px){
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width: 600px){
+	.container{
+		width: 400px;
+	}
+}
+
